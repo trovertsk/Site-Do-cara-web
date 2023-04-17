@@ -1,0 +1,96 @@
+/* Definindo as propriedades básicas de página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Definindo a cor de fundo da página */
+  body {
+    background-color: #f7f7f7;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  /* Estilo do logotipo no cabeçalho */
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #133;
+  }
+  
+  /* Estilo do menu de navegação */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Estilo da seção */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do título da seção */
+  section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #194f85;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  #troca-cor {
+    animation: troca-cor 5s infinite; /* animação de 5 segundos que se repete infinitamente */
+  }
+  
+  @keyframes troca-cor {
+    0% {
+      color: rgb(255, 0, 0); /* inicia em vermelho */
+    }
+    50% {
+      color: rgb(0, 255, 0); /* muda para verde na metade da animação */
+    }
+    100% {
+      color: rgb(0, 0, 255); /* termina em azul */
+    }
+  }
+  
